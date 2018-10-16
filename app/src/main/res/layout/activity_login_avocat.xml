@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAvocat"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/logo_trens" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenu dans l'application OpenLaw"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="#2196f3"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veuillez vous connecter pour continuer"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000000"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/in_email_avocat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        android:hint="email"/>
+
+    <EditText
+        android:id="@+id/in_pass_avocat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/in_inscrire_avocat"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/butt"
+        android:text="Se connecter"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="426dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/inscrire_avocat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous n'avez pas de compte ?"
+        android:layout_gravity="center"/>
+</LinearLayout>

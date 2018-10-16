@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OpenLaw</string>
+
+    <string name="domaine">Choisissez votre domaine</string>
+
+    <string-array name="domaines_array">
+        <item>Droit constitutionnel</item>
+        <item>Droit administratif</item>
+        <item>Droit des personnes</item>
+        <item>Droit de la famille</item>
+        <item>Droit des obligations</item>
+        <item>Droit patrimonial</item>
+        <item>Droit des affaires</item>
+        <item>Droit social</item>
+        <item>Droit pénal</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

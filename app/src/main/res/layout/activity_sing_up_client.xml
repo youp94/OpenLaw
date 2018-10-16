@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUpClient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="créez votre nouveau compte OpenLaw"
+            android:textColor="#2196f3"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/up_nom_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="Nom"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/up_prenom_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="Prénom"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/up_email_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="Email"
+            android:layout_marginBottom="5dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/up_pass_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="Mot de passe"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/up_conf_pass_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="Confirmer votre mot de passe"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/up_age_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="Age"
+            android:layout_marginBottom="25dp"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/button_inscrire_client"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/butt"
+            android:text="S'inscrire"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="426dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "750991196693",
+    "firebase_url": "https://openlaw-344f8.firebaseio.com",
+    "project_id": "openlaw-344f8",
+    "storage_bucket": "openlaw-344f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750991196693:android:139e9a122e9f25d0",
+        "android_client_info": {
+          "package_name": "com.save.test.openlaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750991196693-4eqmhcq64ih0adlnsjkpmb9p0d21ppsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.save.test.openlaw",
+            "certificate_hash": "51b9c1837405d2aa9b99d0400453fb4140cfa7d1"
+          }
+        },
+        {
+          "client_id": "750991196693-k0caosjpnbnask614chh1get7cjbqoke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNM2qOwKotxXwUc0X5ObO6c90eavoBTk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750991196693-k0caosjpnbnask614chh1get7cjbqoke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
